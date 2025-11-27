@@ -17,7 +17,6 @@ body {
     height: auto;
 }
 
-/* Ліва колонка */
 .sidebar {
     width: 280px;
     flex-shrink: 0;
@@ -37,7 +36,7 @@ body {
 }
 
 .menu ul {
-    list-style: none; /* прибираємо буллети */
+    list-style: none; 
 }
 
 .menu a {
@@ -67,20 +66,18 @@ body {
     justify-content: flex-end;
 }
 
-/* Проміжок між колонками */
 .spacer {
-    width: 40px;                    /* саме така ширина на твоєму скріні */
+    width: 40px;                    
     background: #f4f4f4;
     flex-shrink: 0;
 }
 
-/* Права область — блакитна */
 .main-area {
     flex: 1;
     background: #c9daf8;
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px 0;      /* зліва 0 — щоб білий блок торкався краю */
+    padding: 20px 0 20px 0;     
     gap: 20px;
 }
 
@@ -105,15 +102,14 @@ body {
     white-space: nowrap;
 }
 
-/* ФОТОКЛУБ — ліворуч */
 .top-bar .tag {
     margin-left: 20px;
 }
 
-/* Футер — праворуч */
 .bottom-bar {
     justify-content: flex-end;
 }
 .bottom-bar .tag {
     margin-right: 20px;
+
 }
