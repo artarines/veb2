@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОТОКЛУБ</title>
+    <link rel="stylesheet" href="stylengnf.css">
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="sidebar">
+            <div class="menu">
+                <h2>Меню</h2>
+                <ul>
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Про нас</a></li>
+                    <li><a href="#">Послуги</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="address">
+                <p><strong>Щоб дістатись суті необхідно копати вглиб</strong></p>
+                <p>Ви вже докопали)</p>
+                <p>Наша адреса:</p>
+                <p>просп. Лесі Українки 21</p>
+            </div>
+        </td>
+
+        <td class="spacer"></td>
+
+        <td>
+            <table style="width:100%; height:100%;">
+                <tr><td class="top-bar">
+                    <div class="tag tag-left">ФОТОКЛУБ</div>
+                </td></tr>
+
+                <tr style="height:100%;">
+                    <td class="content" style="vertical-align: top;"> 
+                        <h3>Привіт!</h3>
+                        <p>Це офіційна сторінка фотоклубу.</p>
+                    </td>
+                </tr>
+
+                <tr><td class="bottom-bar">
+                    <div class="tag tag-right">все хороше колись закінчується, ця сторінка теж)</div>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
