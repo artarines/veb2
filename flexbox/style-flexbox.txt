@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    min-height: 100vh;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    height: auto;
+}
+
+/* Ліва колонка */
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    flex: 1;
+    background: #f7e1d5;
+    padding: 30px 25px;
+}
+
+.menu h2 {
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.menu ul {
+    list-style: none; /* прибираємо буллети */
+}
+
+.menu a {
+    display: block;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.05em;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background: rgba(255,255,255,0.95);
+}
+
+.address {
+    flex: 0;
+    background: #d8f1e0;
+    padding: 25px;
+    font-size: 0.95em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Проміжок між колонками */
+.spacer {
+    width: 40px;                    /* саме така ширина на твоєму скріні */
+    background: #f4f4f4;
+    flex-shrink: 0;
+}
+
+/* Права область — блакитна */
+.main-area {
+    flex: 1;
+    background: #c9daf8;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;      /* зліва 0 — щоб білий блок торкався краю */
+    gap: 20px;
+}
+
+.top-bar, .bottom-bar {
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+    background: white;
+    padding: 20px;
+}
+
+.tag {
+    background: white;
+    border: 2px solid #000;
+    padding: 12px 40px 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* ФОТОКЛУБ — ліворуч */
+.top-bar .tag {
+    margin-left: 20px;
+}
+
+/* Футер — праворуч */
+.bottom-bar {
+    justify-content: flex-end;
+}
+.bottom-bar .tag {
+    margin-right: 20px;
+}
