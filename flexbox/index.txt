@@ -10,7 +10,6 @@
 
 <div class="container">
 
-    <!-- Ліва колонка -->
     <aside class="sidebar">
         <div class="menu">
             <h2>Меню</h2>
@@ -33,24 +32,19 @@
         </div>
     </aside>
 
-    <!-- Проміжок (сірий, як на скріні) -->
     <div class="spacer"></div>
 
-    <!-- Права частина -->
     <div class="main-area">
 
-        <!-- Верхня синя смужка -->
         <header class="top-bar">
             <div class="tag">ФОТОКЛУБ</div>
         </header>
 
-        <!-- Білий основний блок (без рамки!) -->
         <main class="content">
             <h3>Привіт!</h3>
             <p>Це офіційна сторінка фотоклубу.</p>
         </main>
 
-        <!-- Нижня синя смужка -->
         <footer class="bottom-bar">
             <div class="tag">все хороше колись закінчується, ця сторінка теж)</div>
         </footer>
